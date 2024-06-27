@@ -1,0 +1,6 @@
+curl -X GET "http://localhost:3324/GetMainInfo?keyused=EyesShield-xxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxx"
+curl -X POST -H "Content-Type: application/json" -d "{\"duration\": \"lifetime\"}" http://localhost:3324/GenerateLicense
+curl -X POST -H "Content-Type: application/json" -d "{\"duration\": \"1 hour\"}" http://localhost:3324/GenerateLicense
+curl -X POST -H "Content-Type: application/json" -d "{\"duration\": \"1 day\"}" http://localhost:3324/GenerateLicense
+curl -X POST -H "Content-Type: application/json" -d "{\"duration\": \"1 month\"}" http://localhost:3324/GenerateLicense
+curl -X POST -H "Content-Type: application/json" -d "{\"duration\": \"1 year\"}" http://localhost:3324/GenerateLicense
